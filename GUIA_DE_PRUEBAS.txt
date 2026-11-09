@@ -1,0 +1,42 @@
+DESARROLLO FRONTEND II - SUMATIVA SEMANA 3
+GUÍA DE PRUEBAS MANUALES
+
+1) Abrir el proyecto desde VS Code.
+2) En la terminal usar: npm install
+3) Luego: npm run dev
+4) Abrir la dirección local que muestre Vite.
+
+PRUEBAS PARA VERIFICAR LA PAUTA
+
+[ ] Entrar a Inventario y comprobar que aparezcan los productos.
+[ ] Cambiar el filtro a Bebidas. Verificar que solo muestre bebidas.
+[ ] Volver a Todas las categorías. Deben reaparecer todos los artículos.
+[ ] Abrir un producto con "Ver detalle".
+[ ] Anotar su stock y presionar "Agregar una unidad al carrito".
+[ ] Comprobar que el stock del detalle disminuye en una unidad.
+[ ] Entrar al Carrito y aumentar la cantidad (+). El stock vuelve a bajar.
+[ ] Reducir la cantidad (-). El stock debe volver a subir.
+[ ] Quitar el producto. Las unidades deben regresar al inventario.
+[ ] Agregar un producto nuevo usando el formulario. Revisar que aparezca en el listado.
+[ ] Probar el menú de Inicio, Inventario, Agregar producto y Carrito.
+[ ] Probar también el menú inferior (Quiénes somos y Contáctanos).
+[ ] Comprobar la página en tamaño celular usando las herramientas del navegador.
+[ ] Recargar la página y verificar que los cambios sigan guardados.
+
+CAPTURAS RECOMENDADAS (si el docente solicita evidencias)
+- 01_inicio.png
+- 02_inventario_completo.png
+- 03_filtro_bebidas.png
+- 04_detalle_producto.png
+- 05_carrito_cantidades.png
+- 06_agregar_producto.png
+- 07_github_pages.png
+
+ENTREGA
+Nombre recomendado del repositorio: supermercado-angelo-silva-pfy2202
+Compartir el enlace del repositorio con el docente.
+La pauta también valora que el proyecto esté accesible en GitHub Pages.
+
+SI POWERSHELL BLOQUEA NPM
+En vez de npm install, usar: npm.cmd install
+En vez de npm run dev, usar: npm.cmd run dev
